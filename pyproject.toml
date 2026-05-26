@@ -1,0 +1,25 @@
+[project]
+name = "bgd-etl-vectordb"
+version = "0.1.0"
+requires-python = "==3.13.*"
+dependencies = [
+    "kafka-python>=2.0.2",
+    "psycopg2-binary>=2.9.12",
+    "pylatexenc>=2.10",
+    "sentence-transformers>=5.5.1",
+    "tqdm>=4.67.3",
+    "watchdog>=6.0.0",
+]
+
+[tool.basedpyright]
+reportUnusedVariable = "hint"
+reportUnusedCallResult = false
+reportAny = false
+reportExplicitAny = false
+reportUnknownMemberType = false
+reportMissingTypeStubs = false
+reportUnknownLambdaType = false
+reportUnknownVariableType = false
+
+[tool.ruff]
+indent-width = 4
