@@ -50,6 +50,12 @@ services:
       - "9092:9092"
     volumes:
       - kafka_data:/var/lib/kafka/data
+    healthcheck:
+      test: ["CMD-SHELL", "kafka-broker-api-versions.sh --bootstrap-server localhost:9092"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
 
   redpanda-console:
     image: redpandadata/console:v2.3.5
@@ -61,6 +67,37 @@ services:
     depends_on:
       - kafka
 
+  etl:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: bgd_etl
+    environment:
+      DATABASE_URL: postgresql://bgd:bgd@postgres:5432/bgd
+      KAFKA_BOOTSTRAP: kafka:29092
+      STREAM_INTERVAL_SECONDS: "300"
+      STREAM_BATCH_SIZE: "100"
+      STREAM_MAX_TOTAL: "1000"
+      STREAM_RSS_CATEGORY: "cs"
+      STREAM_RSS_MAX_PAPERS: "50"
+    volumes:
+      # Persist incoming / processed / split data across restarts
+      - ./data:/app/data
+      # Persist downloaded embedding model so it survives container restarts
+      - model_cache:/root/.cache
+    depends_on:
+      postgres:
+        condition: service_healthy
+      kafka:
+        condition: service_healthy
+    # Default: continuous streaming from arXiv API
+    # Override at runtime for other modes, e.g.:
+    #   docker compose run --rm etl python -m core.watcher
+    #   docker compose run --rm etl python -m core.streamer --rss
+    #   docker compose run --rm etl python -m core.producer
+    command: ["python", "-m", "core.streamer"]
+
 volumes:
   pgdata:
   kafka_data:
+  model_cache:

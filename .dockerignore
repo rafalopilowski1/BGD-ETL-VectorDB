@@ -1,0 +1,44 @@
+# Build artifacts
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (mount as volume instead)
+data/incoming/*
+data/processed/*
+data/split/*
+
+# Docs / artifacts
+*.docx
+DELIVERABLES.md
+data_product_contract.yaml
+
+# Local env
+.env
+*.env
+
+# Tests (none exist yet, but future-proof)
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node (if any frontend tools)
+node_modules/

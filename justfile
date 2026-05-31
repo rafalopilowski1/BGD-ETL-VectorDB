@@ -10,9 +10,34 @@ up:
   @echo "Waiting for PostgreSQL to be ready..."
   @sleep 3
 
+build:
+  docker compose build etl
+
+etl-logs:
+  docker compose logs -f etl
+
+etl-stream query="":
+  docker compose run --rm etl python -m core.streamer --query "{{query}}"
+
+etl-stream-rss:
+  docker compose run --rm etl python -m core.streamer --rss
+
+etl-watch:
+  docker compose run --rm etl python -m core.watcher
+
+etl-run file:
+  docker compose run --rm etl python -m core.watcher --file /app/data/incoming/{{file}}
+
+etl-kafka-producer:
+  docker compose run --rm etl python -m core.producer
+
+etl-kafka-consumer:
+  docker compose run --rm etl python -m core.consumer
+
 db-init:
   @echo "Initializing database schemas and tables..."
   docker compose exec -T postgres psql -U bgd -d bgd -f /sql/00_init.sql
+  docker compose exec -T postgres psql -U bgd -d bgd -f /sql/01_streaming_state.sql
   @echo "Database initialized."
 
 db-reset:
@@ -34,6 +59,15 @@ kafka-producer:
 
 kafka-consumer:
   uv run python -m core.consumer
+
+stream-arxiv query="":
+  uv run python -m core.streamer --query "{{query}}"
+
+stream-arxiv-rss:
+  uv run python -m core.streamer --rss
+
+test:
+  uv run pytest tests/ -x
 
 dev-sample:
   @echo "Extracting 200-line dev sample..."
