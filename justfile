@@ -74,6 +74,9 @@ dev-sample:
   head -n 200 data/arxiv-abstracts.jsonl > data/incoming/dev_sample.jsonl
   @echo "Created data/incoming/dev_sample.jsonl (200 records)"
 
+run-benchmark:
+  uv run -m benchmark.benchmark
+
 db-counts:
   @docker compose exec -T postgres psql -U bgd -d bgd --no-align --tuples-only -c " \
     SELECT 'bronze.arxiv_raw', COUNT(*) FROM bronze.arxiv_raw \

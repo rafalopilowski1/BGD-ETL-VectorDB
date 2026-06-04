@@ -1,0 +1,102 @@
+[
+ {
+   "arxiv_id": "0704.0001",
+   "abstract": "A fully differential calculation in perturbative quantum chromodynamics is presented for the production of massive photon pairs at hadron colliders. All next-to-leading order perturbative contributions from quark-antiquark, gluon-(anti)quark, and gluon-gluon subprocesses are included, as well as all-orders resummation of initial-state gluon radiation valid at next-to-next-to-leading logarithmic accuracy. The region of phase space is specified in which the calculation is most reliable. Good agreement is demonstrated with data from the Fermilab Tevatron, and predictions are made for more detailed tests with CDF and DO data. Predictions are shown for distributions of diphoton pairs produced at the energy of the Large Hadron Collider (LHC). Distributions of the diphoton pairs from the decay of a Higgs boson are contrasted with those produced from QCD processes at the LHC, showing that enhanced sensitivity to the signal can be obtained with judicious selection of events.",
+   "query": "Calculating next-to-leading order cross sections for diphoton production at the LHC and Tevatron with QCD corrections and resummation effects."
+ },
+ {
+   "arxiv_id": "0704.0002",
+   "abstract": "We describe a new algorithm, the $(k,\\ell)$-pebble game with colors, and use it obtain a characterization of the family of $(k,\\ell)$-sparse graphs and algorithmic solutions to a family of problems concerning tree decompositions of graphs. Special instances of sparse graphs appear in rigidity theory and have received increased attention in recent years. In particular, our colored pebbles generalize and strengthen the previous results of Lee and Streinu and give a new proof of the Tutte-Nash-Williams characterization of arboricity. We also present a new decomposition that certifies sparsity based on the $(k,\\ell)$-pebble game with colors. Our work also exposes connections between pebble game algorithms and previous sparse graph algorithms by Gabow, Gabow and Westermann and Hendrickson.",
+   "query": "Algorithms for determining graph sparsity and tree decompositions using the colored pebble game method and their applications to rigidity theory."
+ },
+ {
+   "arxiv_id": "0704.0003",
+   "abstract": "The evolution of Earth-Moon system is described by the dark matter field fluid model proposed in the Meeting of Division of Particle and Field 2004, American Physical Society. The current behavior of the Earth-Moon system agrees with this model very well and the general pattern of the evolution of the Moon-Earth system described by this model agrees with geological and fossil evidence. The closest distance of the Moon to Earth was about 259000 km at 4.5 billion years ago, which is far beyond the Roche's limit. The result suggests that the tidal friction may not be the primary cause for the evolution of the Earth-Moon system. The average dark matter field fluid constant derived from Earth-Moon system data is 4.39 x 10^(-22) s^(-1)m^(-1). This model predicts that the Mars's rotation is also slowing with the angular acceleration rate about -4.38 x 10^(-22) rad s^(-2).",
+   "query": "Dark matter fluid models explaining the orbital evolution and recession of the Moon from Earth without relying solely on tidal friction mechanisms."
+ },
+ {
+   "arxiv_id": "0704.0004",
+   "abstract": "We show that a determinant of Stirling cycle numbers counts unlabeled acyclic single-source automata. The proof involves a bijection from these automata to certain marked lattice paths and a sign-reversing involution to evaluate the determinant.",
+   "query": "Combinatorial enumeration of unlabeled acyclic single-source automata using determinants of Stirling cycle numbers and lattice path bijections."
+ },
+ {
+   "arxiv_id": "0704.0005",
+   "abstract": "In this paper we show how to compute the $\\Lambda_{\\alpha}$ norm, $\\alpha\\ge 0$, using the dyadic grid. This result is a consequence of the description of the Hardy spaces $H^p(R^N)$ in terms of dyadic and special atoms.",
+   "query": "Computing Lipschitz norms and Hardy space characterizations using dyadic grid decomposition methods in harmonic analysis."
+ },
+ {
+   "arxiv_id": "0704.0006",
+   "abstract": "We study the two-particle wave function of paired atoms in a Fermi gas with tunable interaction strengths controlled by Feshbach resonance. The Cooper pair wave function is examined for its bosonic characters, which is quantified by the correction of Bose enhancement factor associated with the creation and annihilation composite particle operators. An example is given for a three-dimensional uniform gas. Two definitions of Cooper pair wave function are examined. One of which is chosen to reflect the off-diagonal long range order (ODLRO). Another one corresponds to a pair projection of a BCS state. On the side with negative scattering length, we found that paired atoms described by ODLRO are more bosonic than the pair projected definition. It is also found that at $(k_F a)^{-1} \\ge 1$, both definitions give similar results, where more than 90% of the atoms occupy the corresponding molecular condensates.",
+   "query": "Bosonic characteristics of Cooper pairs in ultracold Fermi gases with tunable interactions near Feshbach resonance and their off-diagonal long range order."
+ },
+ {
+   "arxiv_id": "0704.0007",
+   "abstract": "A rather non-standard quantum representation of the canonical commutation relations of quantum mechanics systems, known as the polymer representation has gained some attention in recent years, due to its possible relation with Planck scale physics. In particular, this approach has been followed in a symmetric sector of loop quantum gravity known as loop quantum cosmology. Here we explore different aspects of the relation between the ordinary Schroedinger theory and the polymer description. The paper has two parts. In the first one, we derive the polymer quantum mechanics starting from the ordinary Schroedinger theory and show that the polymer description arises as an appropriate limit. In the second part we consider the continuum limit of this theory, namely, the reverse process in which one starts from the discrete theory and tries to recover back the ordinary Schroedinger quantum mechanics. We consider several examples of interest, including the harmonic oscillator, the free particle and a simple cosmological model.",
+   "query": "Polymer representation in quantum mechanics and its continuum limit relation to Schrödinger theory with applications to loop quantum cosmology."
+ },
+ {
+   "arxiv_id": "0704.0008",
+   "abstract": "A general formulation was developed to represent material models for applications in dynamic loading. Numerical methods were devised to calculate response to shock and ramp compression, and ramp decompression, generalizing previous solutions for scalar equations of state. The numerical methods were found to be flexible and robust, and matched analytic results to a high accuracy. The basic ramp and shock solution methods were coupled to solve for composite deformation paths, such as shock-induced impacts, and shock interactions with a planar interface between different materials. These calculations capture much of the physics of typical material dynamics experiments, without requiring spatially-resolving simulations. Example calculations were made of loading histories in metals, illustrating the effects of plastic work on the temperatures induced in quasi-isentropic and shock-release experiments, and the effect of a phase transition.",
+   "query": "Numerical methods for modeling material response to shock and ramp compression in dynamic loading scenarios without full hydrodynamic simulations."
+ },
+ {
+   "arxiv_id": "0704.0009",
+   "abstract": "We discuss the results from the combined IRAC and MIPS c2d Spitzer Legacy observations of the Serpens star-forming region. In particular we present a set of criteria for isolating bona fide young stellar objects, YSO's, from the extensive background contamination by extra-galactic objects. We then discuss the properties of the resulting high confidence set of YSO's. We find 235 such objects in the 0.85 deg^2 field that was covered with both IRAC and MIPS. An additional set of 51 lower confidence YSO's outside this area is identified from the MIPS data combined with 2MASS photometry. We describe two sets of results, color-color diagrams to compare our observed source properties with those of theoretical models for star/disk/envelope systems and our own modeling of the subset of our objects that appear to be star+disks. These objects exhibit a very wide range of disk properties, from many that can be fit with actively accreting disks to some with both passive disks and even possibly debris disks. We find that the luminosity function of YSO's in Serpens extends down to at least a few x .001 Lsun or lower for an assumed distance of 260 pc. The lower limit may be set by our inability to distinguish YSO's from extra-galactic sources more than by the lack of YSO's at very low luminosities. A spatial clustering analysis shows that the nominally less-evolved YSO's are more highly clustered than the later stages and that the background extra-galactic population can be fit by the same two-point correlation function as seen in other extra-galactic studies. We also present a table of matches between several previous infrared and X-ray studies of the Serpens YSO population and our Spitzer data set.",
+   "query": "Identifying young stellar objects in the Serpens molecular cloud using Spitzer infrared observations and separating them from extragalactic contaminants."
+ },
+ {
+   "arxiv_id": "0704.0010",
+   "abstract": "Partial cubes are isometric subgraphs of hypercubes. Structures on a graph defined by means of semicubes, and Djokovi\\'{c}'s and Winkler's relations play an important role in the theory of partial cubes. These structures are employed in the paper to characterize bipartite graphs and partial cubes of arbitrary dimension. New characterizations are established and new proofs of some known results are given. The operations of Cartesian product and pasting, and expansion and contraction processes are utilized in the paper to construct new partial cubes from old ones. In particular, the isometric and lattice dimensions of finite partial cubes obtained by means of these operations are calculated.",
+   "query": "Characterizing bipartite graphs as isometric subgraphs of hypercubes using semicube structures and Djoković-Winkler relations."
+ },
+ {
+   "arxiv_id": "0704.0011",
+   "abstract": "In this paper we present an algorithm for computing Hecke eigensystems of Hilbert-Siegel cusp forms over real quadratic fields of narrow class number one. We give some illustrative examples using the quadratic field $\\Q(\\sqrt{5})$. In those examples, we identify Hilbert-Siegel eigenforms that are possible lifts from Hilbert eigenforms.",
+   "query": "Algorithms for computing Hecke eigenvalues of Hilbert-Siegel cusp forms over real quadratic fields and identifying lifts from Hilbert modular forms."
+ },
+ {
+   "arxiv_id": "0704.0012",
+   "abstract": "Recently, Bruinier and Ono classified cusp forms $f(z) := \\sum_{n=0}^{\\infty} a_f(n)q ^ n \\in S_{\\lambda+1/2}(\\Gamma_0(N),\\chi)\\cap \\mathbb{Z}[[q]]$ that does not satisfy a certain distribution property for modulo odd primes $p$. In this paper, using Rankin-Cohen Bracket, we extend this result to modular forms of half integral weight for primes $p \\geq 5$. As applications of our main theorem we derive distribution properties, for modulo primes $p\\geq5$, of traces of singular moduli and Hurwitz class number. We also study an analogue of Newman's conjecture for overpartitions.",
+   "query": "Distribution properties and congruences of Fourier coefficients in half-integral weight modular forms using Rankin-Cohen brackets."
+ },
+ {
+   "arxiv_id": "0704.0013",
+   "abstract": "Serre obtained the p-adic limit of the integral Fourier coefficient of modular forms on $SL_2(\\mathbb{Z})$ for $p=2,3,5,7$. In this paper, we extend the result of Serre to weakly holomorphic modular forms of half integral weight on $\\Gamma_{0}(4N)$ for $N=1,2,4$. A proof is based on linear relations among Fourier coefficients of modular forms of half integral weight. As applications we obtain congruences of Borcherds exponents, congruences of quotient of Eisentein series and congruences of values of $L$-functions at a certain point are also studied. Furthermore, the congruences of the Fourier coefficients of Siegel modular forms on Maass Space are obtained using Ikeda lifting.",
+   "query": "Extending Serre's p-adic limits of Fourier coefficients to weakly holomorphic modular forms of half-integral weight on congruence subgroups."
+ },
+ {
+   "arxiv_id": "0704.0014",
+   "abstract": "In this article we discuss a relation between the string topology and differential forms based on the theory of Chen's iterated integrals and the cyclic bar complex.",
+   "query": "Relations between string topology operations and differential forms via Chen's iterated integrals on the cyclic bar complex."
+ },
+ {
+   "arxiv_id": "0704.0015",
+   "abstract": "The pure spinor formulation of the ten-dimensional superstring leads to manifestly supersymmetric loop amplitudes, expressed as integrals in pure spinor superspace. This paper explores different methods to evaluate these integrals and then uses them to calculate the kinematic factors of the one-loop and two-loop massless four-point amplitudes involving two and four Ramond states.",
+   "query": "Evaluating loop amplitudes in ten-dimensional superstring theory using the pure spinor formalism and calculating kinematic factors for Ramond states."
+ },
+ {
+   "arxiv_id": "0704.0016",
+   "abstract": "In this work, we evaluate the lifetimes of the doubly charmed baryons $\\Xi_{cc}^{+}$, $\\Xi_{cc}^{++}$ and $\\Omega_{cc}^{+}$. We carefully calculate the non-spectator contributions at the quark level where the Cabibbo-suppressed diagrams are also included. The hadronic matrix elements are evaluated in the simple non-relativistic harmonic oscillator model. Our numerical results are generally consistent with that obtained by other authors who used the diquark model. However, all the theoretical predictions on the lifetimes are one order larger than the upper limit set by the recent SELEX measurement. This discrepancy would be clarified by the future experiment, if more accurate experiment still confirms the value of the SELEX collaboration, there must be some unknown mechanism to be explored.",
+   "query": "Theoretical calculations of doubly charmed baryon lifetimes including non-spectator and Cabibbo-suppressed contributions in the harmonic oscillator model."
+ },
+ {
+   "arxiv_id": "0704.0017",
+   "abstract": "Results from spectroscopic observations of the Intermediate Polar (IP) EX Hya in quiescence during 1991 and 2001 are presented. Spin-modulated radial velocities consistent with an outer disc origin were detected for the first time in an IP. The spin pulsation was modulated with velocities near ~500-600 km/s. These velocities are consistent with those of material circulating at the outer edge of the accretion disc, suggesting corotation of the accretion curtain with material near the Roche lobe radius. Furthermore, spin Doppler tomograms have revealed evidence of the accretion curtain emission extending from velocities of ~500 km/s to ~1000 km/s. These findings have confirmed the theoretical model predictions of King & Wynn (1999), Belle et al. (2002) and Norton et al. (2004) for EX Hya, which predict large accretion curtains that extend to a distance close to the Roche lobe radius in this system. Evidence for overflow stream of material falling onto the magnetosphere was observed, confirming the result of Belle et al. (2005) that disc overflow in EX Hya is present during quiescence as well as outburst. It appears that the hbeta and hgamma spin radial velocities originated from the rotation of the funnel at the outer disc edge, while those of halpha were produced due to the flow of material along the field lines far from the white dwarf (narrow component) and close to the white dwarf (broad-base component), in agreement with the accretion curtain model.",
+   "query": "Spectroscopic analysis of the intermediate polar cataclysmic variable EX Hydrae during quiescence focusing on accretion curtain dynamics and disc overflow."
+ },
+ {
+   "arxiv_id": "0704.0018",
+   "abstract": "We give a prescription for how to compute the Callias arxiv_id, using as regulator an exponential function. We find agreement with old results in all odd dimensions. We show that the problem of computing the dimension of the moduli space of self-dual strings can be formulated as an index problem in even-dimensional (loop-)space. We think that the regulator used in this Letter can be applied to this index problem.",
+   "query": "Computing the Callias arxiv_id theorem using exponential regulators and applications to moduli spaces of self-dual strings in loop space."
+ },
+ {
+   "arxiv_id": "0704.0019",
+   "abstract": "In this note we give a new method for getting a series of approximations for the extinction probability of the one-dimensional contact process by using the Gr\\\"obner basis.",
+   "query": "Approximation methods for extinction probabilities in one-dimensional contact processes using Gröbner basis techniques from computational algebra."
+ },
+ {
+   "arxiv_id": "0704.0020",
+   "abstract": "The shape of the hadronic form factor f+(q2) in the decay D0 --> K- e+ nue has been measured in a model independent analysis and compared with theoretical calculations. We use 75 fb(-1) of data recorded by the BABAR detector at the PEPII electron-positron collider. The corresponding decay branching fraction, relative to the decay D0 --> K- pi+, has also been measured to be RD = BR(D0 --> K- e+ nue)/BR(D0 --> K- pi+) = 0.927 +/- 0.007 +/- 0.012. From these results, and using the present world average value for BR(D0 --> K- pi+), the normalization of the form factor at q2=0 is determined to be f+(0)=0.727 +/- 0.007 +/- 0.005 +/- 0.007 where the uncertainties are statistical, systematic, and from external inputs, respectively.",
+   "query": "Measuring the q-squared dependence of hadronic form factors in semileptonic D0 meson decays to kaons using BABAR detector data at PEP-II."
+ }
+]
