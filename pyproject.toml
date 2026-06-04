@@ -11,6 +11,8 @@ dependencies = [
     "requests>=2.32.3",
     "responses>=0.25.0",
     "sentence-transformers>=5.5.1",
+    "streamlit>=1.58.0",
+    "torchvision>=0.27.0",
     "tqdm>=4.67.3",
     "watchdog>=6.0.0",
 ]

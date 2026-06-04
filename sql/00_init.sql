@@ -57,3 +57,6 @@ CREATE TABLE IF NOT EXISTS gold.arxiv_embeddings (
 CREATE INDEX IF NOT EXISTS idx_bronze_arxiv_id ON bronze.arxiv_raw (arxiv_id);
 CREATE INDEX IF NOT EXISTS idx_silver_arxiv_id ON silver.arxiv_abstracts (arxiv_id);
 CREATE INDEX IF NOT EXISTS idx_gold_arxiv_id   ON gold.arxiv_embeddings (arxiv_id);
+CREATE INDEX IF NOT EXISTS idx_gold_embedding_384_hnsw
+    ON gold.arxiv_embeddings
+    USING hnsw (embedding_384 vector_cosine_ops);
