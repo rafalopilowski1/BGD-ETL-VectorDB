@@ -258,6 +258,7 @@ just split-data
 | `just test` | Run the full test suite |
 | `just dev-sample` | Extract 200-record test sample |
 | `just split-data` | Split full dataset into parts |
+| `just run-benchmark` | Benchmark the embedding size differences |
 
 ## Configuration
 
