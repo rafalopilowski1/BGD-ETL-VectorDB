@@ -282,6 +282,7 @@ just split-data
 | `just dev-sample` | Extract 200-record test sample |
 | `just split-data` | Split full dataset into parts |
 | `just webui` | Run webui Streamlit app |
+| `just run-benchmark` | Benchmark the embedding size differences |
 
 ## Configuration
 
