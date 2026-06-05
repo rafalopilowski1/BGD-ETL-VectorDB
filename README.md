@@ -46,6 +46,8 @@ scripts/
 sql/
   00_init.sql       # Schema and table definitions
   01_streaming_state.sql  # Streaming checkpoint state table
+webui/
+  app.py            # WebUI with semantic search
 data/
   incoming/         # Drop .jsonl files here to trigger pipeline
   processed/        # Files moved here after successful processing
@@ -197,6 +199,27 @@ Extract a small 200-record sample from the full dataset for testing:
 just dev-sample    # creates data/incoming/dev_sample.jsonl
 ```
 
+## Streamlit WebUI
+
+The project includes a Streamlit WebUI for semantic search over arXiv articles
+processed by the ETL pipeline.
+
+### Requirements
+
+Before starting the WebUI, make sure that:
+
+- Python dependencies are installed with `uv sync`
+- PostgreSQL with pgvector is running
+- Database schemas are initialized with `just db-init`
+- The ETL pipeline has processed at least one batch of articles
+- `gold.arxiv_embeddings` contains generated embeddings
+
+### Run WebUI
+
+```bash
+just webui    # starts Streamlit WebUI
+```
+
 ## Testing
 
 The project includes a comprehensive test suite covering unit, integration, and e2e tests:
@@ -258,6 +281,7 @@ just split-data
 | `just test` | Run the full test suite |
 | `just dev-sample` | Extract 200-record test sample |
 | `just split-data` | Split full dataset into parts |
+| `just webui` | Run webui Streamlit app |
 | `just run-benchmark` | Benchmark the embedding size differences |
 
 ## Configuration

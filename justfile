@@ -66,6 +66,9 @@ stream-arxiv query="":
 stream-arxiv-rss:
   uv run python -m core.streamer --rss
 
+webui:
+  DATABASE_URL=postgresql://bgd:bgd@localhost:5432/bgd uv run streamlit run webui/app.py
+
 test:
   uv run pytest tests/ -x
 
