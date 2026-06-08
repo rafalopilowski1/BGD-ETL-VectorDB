@@ -4,6 +4,11 @@ ETL pipeline that ingests arXiv paper abstracts, cleans them, and generates
 embedding vectors at multiple dimensions using Matryoshka Representation
 Learning (MRL). Stores results in PostgreSQL with pgvector.
 
+> [!NOTE]
+> Presentation:
+>
+> https://pejot-my.sharepoint.com/:p:/g/personal/s22865_pjwstk_edu_pl/IQDSRxhWseymTZ9AZ-t3FLVCAVulGTD2xSdWc62BYYm2ETo
+
 ## Architecture
 
 The pipeline follows a medallion (bronze/silver/gold) architecture:
