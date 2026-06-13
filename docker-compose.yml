@@ -125,7 +125,7 @@ services:
       build:
         context: .
         dockerfile: Dockerfile
-      container_name: bgd_etl_consumer
+      container_name: bgd_etl_streamer
       environment:
         DATABASE_URL: postgresql://bgd:bgd@postgres:5432/bgd
         KAFKA_BOOTSTRAP: kafka:29092
