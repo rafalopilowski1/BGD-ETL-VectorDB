@@ -34,12 +34,6 @@ etl-kafka-producer:
 etl-kafka-consumer:
   docker compose run --rm etl python -m core.consumer
 
-db-init:
-  @echo "Initializing database schemas and tables..."
-  docker compose exec -T postgres psql -U bgd -d bgd -f /sql/00_init.sql
-  docker compose exec -T postgres psql -U bgd -d bgd -f /sql/01_streaming_state.sql
-  @echo "Database initialized."
-
 db-reset:
   @echo "Dropping and recreating database objects..."
   docker compose exec -T postgres psql -U bgd -d bgd -c "DROP SCHEMA IF EXISTS gold CASCADE; DROP SCHEMA IF EXISTS silver CASCADE; DROP SCHEMA IF EXISTS bronze CASCADE;"

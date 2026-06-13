@@ -22,9 +22,7 @@ build/
 Thumbs.db
 
 # Data (mount as volume instead)
-data/incoming/*
-data/processed/*
-data/split/*
+data/
 
 # Docs / artifacts
 *.docx
